@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgba(167, 155, 155, 0.884);
+}
+h1
+{
+    border: 10px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(27, 2, 2);
+    padding: 20px;
+}
+.active{
+    width: 30%;
+    height: 300px;
+    font-size: 60px;
+    text-align: center;
+}
+#main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+}
+#rock:hover{
+height:350px;
+width: 32%;
+}
+#paper:hover{
+height:350px;
+width: 32%;
+}
+#scissors:hover{
+height:350px;
+width: 32%;
+}
+#reset,#new{
+    width: 250px;
+    height: 45px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+#result{
+    visibility: hidden;
+    text-align: center;
+    font-size: 90px;
+    color: rgb(0, 0, 0);    
+    border:2px solid black;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    justify-content: center;
+    background-color: rgb(243, 226, 130);
+}
+#huu{
+    display: flex;
+    justify-content: space-evenly
+}
